@@ -1,35 +1,60 @@
-# ==========================================
-#      Alphabet Checker Mini Project
-# ==========================================
+# ╔══════════════════════════════════════════════════════╗
+#        🌈✨ SUPER SMART ALPHABET ANALYZER ✨🌈
+# ╚══════════════════════════════════════════════════════╝
 
-print("===================================")
-print("      WELCOME TO ALPHABET CHECKER ")
-print("===================================")
+print("🌟━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🌟")
+print("🤖        WELCOME TO THE ALPHABET WORLD        🤖")
+print("🌟━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━🌟")
 
-# Taking input from the user
-ch = input("Enter any single character: ")
+# Taking input from user
+ch = input("\n🪄 Enter any single symbol to begin: ")
 
-# Checking the length of input
+print("\n🔍 Initiating Smart Scan...")
+print("⚡ Processing your input ⚡")
+print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+
+# Checking input length
 if len(ch) != 1:
-    print(" Please enter only ONE character.")
-else:
-    
-    # Checking whether the character is an alphabet
-    if ('A' <= ch <= 'Z') or ('a' <= ch <= 'z'):
-        
-        print("\n RESULT")
-        print("-------------------")
-        print(ch, "is an ALPHABET ")
-        
-        # Extra feature
-        if 'A' <= ch <= 'Z':
-            print("It is an UPPERCASE letter.")
-        else:
-            print("It is a LOWERCASE letter.")
-    
-    else:
-        print("\n RESULT")
-        print("-------------------")
-        print(ch, "is NOT an alphabet ")
+    print("🚫 OOPS! Invalid Input Detected 🚫")
+    print("📢 Please enter ONLY one symbol at a time.")
+    print("🎯 Example Inputs → A , z , 7 , @")
 
-print("\nThank you for using Alphabet Checker!")
+# Uppercase alphabet check
+elif 'A' <= ch <= 'Z':
+    print(f"🟢 SUCCESS! '{ch}' is an ALPHABET 🎓")
+    print("🔠 Category      ➜ UPPERCASE LETTER")
+    print("🧾 ASCII Value   ➜", ord(ch))
+    print("👑 Awesome! You entered a CAPITAL letter.")
+    print("🚀 Keep Exploring the Alphabet Galaxy!")
+
+# Lowercase alphabet check
+elif 'a' <= ch <= 'z':
+    print(f"🟢 SUCCESS! '{ch}' is an ALPHABET 🎓")
+    print("🔡 Category      ➜ LOWERCASE LETTER")
+    print("🧾 ASCII Value   ➜", ord(ch))
+    print("🌸 Cool! You entered a small letter.")
+    print("💫 Learning Python is fun!")
+
+# Number check
+elif '0' <= ch <= '9':
+    print(f"🔢 ALERT! '{ch}' is a NUMBER.")
+    print("❌ Numbers are not alphabets.")
+    print("📚 Try entering letters from A-Z or a-z.")
+
+# Space check
+elif ch == " ":
+    print("⬜ WHOOPS! You entered a SPACE.")
+    print("⚠️ Space cannot be counted as an alphabet.")
+    print("🎈 Please try another symbol.")
+
+# Special symbol check
+else:
+    print(f"💥 '{ch}' is a SPECIAL SYMBOL ⚡")
+    print("🛑 Special symbols are not alphabets.")
+    print("🎭 Examples ➜ @  #  $  %  &  *")
+    print("🧠 Python successfully identified your input!")
+
+print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+print("💖 Thank You for Using Smart Alphabet Analyzer")
+print("🌟 Keep Coding • Keep Learning • Keep Growing 🌟")
+print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
