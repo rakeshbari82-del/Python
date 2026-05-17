@@ -67,6 +67,7 @@ else:
     print("🚫 INVALID AGE ENTERED!")
     print("⚠️ Age cannot be zero or negative.")
 
+
 print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 print("💖 Thank You for Using Smart Age Advisor 💖")
 print("🌟 Keep Smiling • Keep Learning • Keep Growing 🌟")
