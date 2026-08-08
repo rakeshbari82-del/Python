@@ -65,7 +65,7 @@ class FlyingCar(Vehicle):
 
 car = ElectricCar("Tesla", 250, "Red", 95)
 bike = SuperBike("Kawasaki", 300, "Green", 1000)
-flying_car = FlyingCar("SkyDrive", 500, "White", 300)
+flying_car = FlyingCar("Sky Drive", 500, "White", 300)
 
 
 # Display Details
