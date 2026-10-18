@@ -1,0 +1,33 @@
+SPACE MISSION DATA EXPLORER
+========================================
+
+Usable records: 776
+Number of columns: 6
+Discovery methods: 8
+
+NUMERICAL SUMMARY
+        number  orbital_period     mass  distance      year
+count  776.000         776.000  498.000   776.000   776.000
+mean     1.760        1433.882    2.509   219.117  2008.372
+std      1.307       13293.499    3.636   558.859     3.953
+min      1.000           0.091    0.004     1.350  1989.000
+25%      1.000           5.399    0.212    32.310  2006.750
+50%      1.000          95.344    1.245    54.920  2010.000
+75%      2.000         657.450    2.867   174.360  2011.000
+max      7.000      318280.000   25.000  8500.000  2014.000
+
+DISCOVERY METHODS
+method
+Radial Velocity                  530
+Transit                          224
+Imaging                           10
+Eclipse Timing Variations          4
+Transit Timing Variations          3
+Astrometry                         2
+Orbital Brightness Modulation      2
+Pulsar Timing                      1
+
+Shortest orbital period: 0.091 days
+Longest orbital period: 318280.000 days
+
+This report describes the cleaned Seaborn planets dataset. It is not a live NASA feed.
