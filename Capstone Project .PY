@@ -26,7 +26,8 @@ print("\n📂 STEP 1: IMPORTING IMDB DATASET")
 # Place your CSV file in the same folder as this Python program.
 # If the filename differs, update the candidates below.
 possible_files = [
-    "IMDB Dataset.CSV"
+    "IMDB Dataset.CSV",
+    "IMDB_Rows_41_to_75.CSV",
 ]
 
 df = None
